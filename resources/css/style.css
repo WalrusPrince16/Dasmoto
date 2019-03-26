@@ -1,0 +1,29 @@
+/* Applies formating to h1, h2, and span elements */
+h1, h2, span {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+h1 {
+  font-size: 100px;
+  color: khaki;
+  text-align: center;
+  background-image: url("../../resources/images/pattern.jpeg");
+}
+h2 {
+  color: white;
+  font-size: 32px;
+}
+span {
+  color: blue;
+}
+/* Applies formating to h2 elements that are nested within
+   elements with a particulr class */
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+.frames h2 {
+  background-color: lightcoral;
+}
+.paint h2 {
+  background-color: skyblue;
+}
